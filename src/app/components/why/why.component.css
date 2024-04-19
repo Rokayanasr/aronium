@@ -1,0 +1,6 @@
+.left-side{
+    background-image:    linear-gradient(to bottom left, rgba(53, 1, 1, 0.857), rgba(128, 11, 11, 0.797)),    url('../../../assets/30579.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
