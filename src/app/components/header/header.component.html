@@ -1,0 +1,83 @@
+<header>
+    <app-navbar></app-navbar>
+  <div id="default-carousel" class="relative w-full" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative overflow-hidden rounded-lg crsl">
+      
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out crsl-img crsl-img1 " data-carousel-item>
+          <div class="blur-lg z-1"></div>
+
+          <div class="txt ">
+            <div class="my-container text-center sm:text-start">
+              <h1 class="text-yellow-300 crsl-txt1 sm:visible lg:visible text-4xl sm:text-5xl md:text-5xl lg:text-6xl leading-normal sm:leading-loose md:leading-normal lg:leading-normal ">تابع جميع المباريات <br>العالمية و المحليــة</h1>
+              <h2 class="text-yellow-50 crsl-txt2 text-lg sm:text-xl md:text-xl lg:text-3xl leading-normal sm:leading-loose lg:leading-normal ">في بـــث مبـاشــر عبـــر ارونيــوم بلاتينيــوم <span
+                  class="text-red-700 fs-1y font-bold">.</span></h2>
+              <div>
+                <button type="button"
+                  class="text-white font-bold bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-full text-lg sm:text-xl lg:text-lg sm:p-3 lg::p-3 px-4 py-2 text-center">تعرف
+                  علي الباقات</button>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out crsl-img crsl-img2" data-carousel-item>
+          <div class="txt ">
+            <div class="my-container text-center sm:text-start">
+              <h1 class="text-yellow-300 crsl-txt1 sm:visible lg:visible text-4xl sm:text-5xl md:text-5xl lg:text-6xl leading-normal sm:leading-loose md:leading-normal lg:leading-normal ">شاهـــد جميـع القنــوات <br>المشفرة و الغير مشفرة</h1>
+              <h2 class="text-yellow-50 crsl-txt2 text-lg sm:text-xl md:text-xl lg:text-3xl leading-normal sm:leading-loose lg:leading-normal ">العالــــم كله بيـــن ايديـــك</h2>
+              <div>
+                <button type="button"
+                  class="text-white font-bold bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-full text-lg sm:text-xl lg:text-lg sm:p-3 lg::p-3 px-4 py-2 text-center">تعرف
+                  علي الباقات</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out crsl-img crsl-img4" data-carousel-item>
+          <div class="txt ">
+            <div class="my-container text-center sm:text-start">
+              <h1 class="text-yellow-300 crsl-txt1 sm:visible lg:visible text-4xl sm:text-5xl md:text-5xl lg:text-5xl leading-normal sm:leading-loose md:leading-normal lg:leading-normal ">مكتبــــة ضخمــــــة تــــضم <br>احدث الافلام و المسلسلات</h1>
+              <h2 class="text-yellow-50 crsl-txt2 text-lg sm:text-xl md:text-xl lg:text-3xl leading-normal sm:leading-loose lg:leading-normal ">محتوي من كل الاصناف: أكشن - دراما -اثارة <br>رعب -رومانسي</h2>
+              <div>
+                <button type="button"
+                  class="text-white font-bold bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-full text-lg sm:text-xl lg:text-lg sm:p-3 lg::p-3 px-4 py-2 text-center">تعرف
+                  علي الباقات</button>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+    </div>
+    <!-- Slider indicators -->
+    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+        <!-- <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button> -->
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+  </div>
+
+
+</header>

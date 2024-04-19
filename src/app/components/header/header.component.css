@@ -1,0 +1,48 @@
+.crsl {
+  height: 90vh;
+}
+.crsl-img {
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.crsl-img1 {
+  background-image: url("../../../assets/football-match-live-tv.jpg");
+}
+.crsl-img2 {
+  background-image: url("../../../assets/nicolas-j-leclercq-qDLLP0yP7FU-unsplash.jpg");
+}
+
+.crsl-img4 {
+    background-image: url("../../../assets/man-watching-streaming-service-his-laptop.jpg");
+  }
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(to bottom left, #000000df, #0000006c);
+  height: 90vh;
+}
+.crsl-txt1 {
+  /* font-size: 4.5rem; */
+  font-weight: 700;
+  margin-bottom: 1.8rem !important;
+}
+.centering {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+}
+/* .crsl-txt2 span{
+    font-size: 4rem ;
+    font-weight: 700 ;
+    color: var(--secoundry-color);
+} */
+.crsl-txt2 {
+  /* font-size: 2rem; */
+  font-weight: 600;
+  margin-bottom: 3rem !important;
+}

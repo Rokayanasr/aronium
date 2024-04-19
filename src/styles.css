@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    --bg-color: #101010fc;
+    --text-color: #EDEDED;
+    --main-color: hwb(45 3% 8%);
+    --main-shadow: #f59e0b;
+    --secoundry-color: #BA1D22;
+    --secoundry-shadow: #840000;
+    direction: rtl;
+    text-align: right;
+    font-family: "Cairo", sans-serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+    background-color: var(--bg-color);
+}
+
+.my-container{
+    padding: 2rem 5rem;   
+}
+
+.centering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
