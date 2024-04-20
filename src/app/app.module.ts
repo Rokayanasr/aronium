@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { QuestionsComponent } from './components/questions/questions.component';
 import { MessageComponent } from './components/message/message.component';
 import { WhyComponent } from './components/why/why.component';
+import { PackagesComponent } from './components/packages/packages.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +17,12 @@ import { WhyComponent } from './components/why/why.component';
     NavbarComponent,
     QuestionsComponent,
     MessageComponent,
-    WhyComponent
+    WhyComponent,
+    PackagesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

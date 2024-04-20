@@ -1,0 +1,14 @@
+/* Apply the transition to the button */
+.scale-in-center {
+    transition: transform 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -ms-transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+}
+  
+  /* Scale the button when hovered over */
+  .scale-in-center:hover {
+    transform: scale(1.1);
+  }
+  
